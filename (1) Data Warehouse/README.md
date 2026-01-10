@@ -112,8 +112,8 @@ This is how data works in real systems (just at a smaller scale).
 
 1. Clone repo  
 2. Run `init_database.sql`  
-3. Run `ddl_bronze.sql` → `strd_prcd_bronze.sql`  
-4. Run `ddl_silver.sql` → `strd_prcd_silver.sql`  
+3. Run `ddl_bronze.sql` --> `strd_prcd_bronze.sql`  
+4. Run `ddl_silver.sql` --> `strd_prcd_silver.sql`  
 5. Run `ddl_gold.sql`  
 6. Run `qc_silver.sql` + `qc_gold.sql` (optional but recommended)  
 7. Query Gold views. Done.
