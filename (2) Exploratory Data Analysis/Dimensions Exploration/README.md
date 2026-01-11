@@ -13,6 +13,6 @@ This folder contains queries that explore **descriptive tables** (dimensions) in
 - Dimensions are clean, consistent, and ready for analytics.
 
 ### How to Use
-1. Open (`dimensions_overview.sql`, etc.).  
+1. Open `dimensions_overview.sql`
 2. Run the queries against the `gold` layer.  
 3. Check the comments for insights.
