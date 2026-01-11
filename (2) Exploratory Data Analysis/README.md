@@ -1,8 +1,8 @@
-# Exploratory Data Analysis (EDA) Project
+# Exploratory Data Analysis (Phase 2)
 
-**Dig into the gold layer, understand your data, and find the story behind the numbers.**
+**Diggin into the gold layer.**
 
-This project shows how to explore a data warehouse from multiple angles: dates, dimensions, measures, magnitude, and rankings. The goal isn’t just to run queries — it’s to understand what the data is telling you.
+This part of the project shows how to explore a data warehouse from multiple angles: dates, dimensions, measures, magnitude, and rankings. The goal isn’t just to run queries. iIt’s to understand what the data is telling you.
 
 ---
 
