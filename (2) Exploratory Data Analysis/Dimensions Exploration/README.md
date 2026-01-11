@@ -1,4 +1,4 @@
-# Dimensions Exploration
+# 🧩 Dimensions Exploration
 
 This folder contains queries that explore **descriptive tables** (dimensions) in the warehouse.
 
@@ -15,4 +15,4 @@ This folder contains queries that explore **descriptive tables** (dimensions) in
 ### How to Use
 1. Open SQL files in this folder (`dimension_overview.sql`, etc.).  
 2. Run the queries against the `gold` layer.  
-3. Check the inline comments for insights.  
+3. Check the comments for insights.
