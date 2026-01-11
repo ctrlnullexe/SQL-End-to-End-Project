@@ -1,10 +1,10 @@
 # 🏆 Ranking Analysis
 
-This folder focuses on **ranking entities** based on measures in the data warehouse.
+This folder focuses on ranking entities based on measures in the data warehouse.
 
 ### Purpose
-- Rank **top/bottom customers, products, or categories** by sales, quantity, or revenue.  
-- Identify **high-impact performers** and areas needing attention.  
+- Rank top/bottom customers, products, or categories by sales, quantity, or revenue.  
+- Identify high-impact performers and areas needing attention.  
 - Provides insights for dashboards, KPIs, and business decisions.
 
 ### Key Insights
