@@ -9,6 +9,7 @@ This project shows how to explore a data warehouse from multiple angles: dates, 
 ## Project Structure
 
 The folder is organized by type of analysis:
+
 Exploratory Data Analysis/
 ├── Date Exploration/
 ├── Dimensions Exploration/
