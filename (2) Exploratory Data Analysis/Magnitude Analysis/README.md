@@ -13,6 +13,6 @@ This folder explores the **scale and size of key measures** in the data warehous
 - 🔹 Helps identify where analytics or business focus is most effective.
 
 ### How to Use
-1. Open (`magnitude_analysis.sql`, etc.).  
+1. Open `magnitude_analysis.sql`
 2. Run queries against the `gold` layer.  
 3. Review comments for insights on distribution and scale.
