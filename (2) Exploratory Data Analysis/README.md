@@ -6,7 +6,7 @@ This part of the project shows how to explore a data warehouse from multiple ang
 
 ---
 
-## Project Structure
+## Structure
 
 The folder is organized by type of analysis:
 
@@ -38,7 +38,7 @@ Each folder contains SQL queries and notes for that type of analysis. Some queri
 
 ---
 
-## Quick Reference: What Each Section Shows
+## What Each Section Shows
 
 | Section                 | Purpose                                                                                   | Example Insights                        |
 |-------------------------|-------------------------------------------------------------------------------------------|----------------------------------------|
@@ -50,7 +50,7 @@ Each folder contains SQL queries and notes for that type of analysis. Some queri
 
 ---
 
-## Why It Matters
+## Why This Matters
 
 - Shows full understanding of the data warehouse.  
 - You can trace dimensions and measures to see how they interact.  
