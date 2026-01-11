@@ -1,10 +1,10 @@
 # 📊 Measure Exploration
 
-This folder contains queries analyzing **numerical metrics** (facts) in the warehouse.
+This folder contains queries analyzing numerical metrics (facts) in the warehouse.
 
 ### Purpose
-- Explore measures like **sales, quantity, price**.  
-- Identify **nulls, inconsistencies, and unusual values**.  
+- Explore measures like sales, quantity, price.  
+- Identify nulls, inconsistencies, and unusual values.  
 - Confirm data integrity before ranking or aggregation.
 
 ### Key Insights
