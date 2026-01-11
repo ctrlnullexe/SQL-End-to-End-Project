@@ -21,7 +21,7 @@ Exploratory Data Analysis/
 ├── Measure Exploration/
 
 └── Ranking Analysis/
----
+\---
 
 
 Each folder contains SQL queries and notes for that type of analysis. Some queries are short. The focus is **insights, not volume**.
