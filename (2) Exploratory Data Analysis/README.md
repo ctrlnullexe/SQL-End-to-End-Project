@@ -11,10 +11,15 @@ This project shows how to explore a data warehouse from multiple angles: dates, 
 The folder is organized by type of analysis:
 
 Exploratory Data Analysis/
+
 ├── Date Exploration/
+
 ├── Dimensions Exploration/
+
 ├── Magnitude Analysis/
+
 ├── Measure Exploration/
+
 └── Ranking Analysis/
 ---
 
