@@ -95,7 +95,7 @@ Quality checks act as guardrails before data is used.
 
 ---
 
-## Why This Project Matters
+## Why This Matters
 
 It shows:
 - Understanding of the ETL flow
