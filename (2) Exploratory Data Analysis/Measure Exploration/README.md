@@ -13,7 +13,7 @@ This folder contains queries analyzing **numerical metrics** (facts) in the ware
 - Data is ready for magnitude, ranking, and KPIs analysis.
 
 ### How to Use
-1. Open (`measure_overview.sql`, etc.).  
+1. Open `measure_overview.sql`
 2. Run queries against the `gold` layer.  
 3. Review comments for anomalies or patterns.
 
