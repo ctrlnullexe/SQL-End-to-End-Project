@@ -2,7 +2,7 @@
 
 **Dig into the gold layer, understand your data, and find the story behind the numbers.**
 
-This project shows how to explore a data warehouse from multiple angles: dates, dimensions, measures, magnitude, and rankings. The goal isn’t just to run queries — it’s to **understand what the data is telling you**.
+This project shows how to explore a data warehouse from multiple angles: dates, dimensions, measures, magnitude, and rankings. The goal isn’t just to run queries — it’s to understand what the data is telling you.
 
 ---
 
@@ -24,7 +24,7 @@ Exploratory Data Analysis/
 \---
 
 
-Each folder contains SQL queries and notes for that type of analysis. Some queries are short. The focus is **insights, not volume**.
+Each folder contains SQL queries and notes for that type of analysis. Some queries are short. The focus is insights, not volume.
 
 ---
 
