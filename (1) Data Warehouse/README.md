@@ -6,17 +6,17 @@ Turn messy CSVs into clean, business ready insights, built from scratch in SQL.
 
 ## Layers
 
-### 🥉 Bronze (Raw Data)
+### 🥉 Bronze 🥉 (Raw Data)
 - CSVs, ERP exports, CRM tables.
 - May have duplicates, nulls, messy codes.
 - Purpose: Keep raw source intact as fallback.
 
-### 🥈 Silver (Clean & Trusted)
+### 🥈 Silver 🥈 (Clean & Trusted)
 - Deduplicated, fix dates, trimmed, standardized.
 - Add 'dwh_create_date' for tracking.
 - Purpose: Reliable, clean tables ready for analysis.
 
-### 🥇 Gold (Business Ready)
+### 🥇 Gold 🥇 (Business Ready)
 - Star schema: **dimensions + fact table**.
 - Surrogate keys, clean names, joined tables, ready for dashboards.
 - Purpose: Analytics ready, plug and play.
