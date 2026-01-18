@@ -1,53 +1,60 @@
-# Advanced Data Analysis Project
+# Advanced Data Analysis (Phase 3)
 
-**From clean data to actionable business insights.**
+**Turning gold layer data into business insights.**
 
-This project builds on the Data Warehouse you created (Bronze → Silver → Gold) and focuses on **extracting business intelligence**. We move past basic exploration into **strategic analysis**, answering questions like:  
-- Which products and customers drive revenue?  
-- How do trends evolve over time?  
-- Where should the business focus resources next?
+This part of the project goes beyond exploration. It shows how to analyze data for performance, trends, segmentation, and actionable intelligence. The goal isn’t just to run queries — it’s to **understand what drives revenue, customers, and products**.
 
 ---
 
-## Key Sections
+## Structure
 
-This project is organized into focused analysis areas:
+The folder is organized by type of advanced analysis:
 
-### 1️⃣ Change Over Time
-- Analyze how metrics evolve year-over-year, month-over-month, or quarter-over-quarter.
-- Track trends for products, categories, and customers.
-- Helps spot growth, decline, and seasonal patterns.
+Advanced Data Analysis/
 
-### 2️⃣ Cumulative Analysis
-- Calculate running totals for sales, quantity, and revenue.
-- Understand overall performance and growth trajectory.
-- Useful for monitoring KPIs over time.
+├── Change Over Time/
 
-### 3️⃣ Customers Report
-- Identify top customers by revenue, order frequency, and loyalty.
-- Segment customers by demographics or location.
-- Supports targeted marketing and retention strategies.
+├── Cumulative Analysis/
 
-### 4️⃣ Data Segmentation
-- Slice and dice metrics by product category, region, or customer type.
-- Compare performance across segments.
-- Helps uncover hidden insights and business opportunities.
+├── Customers Report/
 
-### 5️⃣ Part-to-Whole Analysis
-- Measure contribution of each product, category, or customer to total sales.
-- Visualize percentage contributions for informed prioritization.
-- Supports product mix and portfolio decisions.
+├── Data Segmentation/
 
-### 6️⃣ Performance & Products Report
-- Rank products and categories by revenue, quantity sold, or profitability.
-- Identify best- and worst-performing items.
-- Flag trends, anomalies, and opportunities for improvement.
+├── Part-to-Whole Analysis/
+
+└── Performance & Products Report/
 
 ---
 
-## Why it matters
+Each folder contains SQL queries and notes for that type of analysis. Some queries are short. The focus is insights and business understanding, not just query volume.
 
-- Shows you can **turn raw numbers into business strategy**.  
-- Demonstrates advanced SQL skills: window functions, aggregates, cumulative totals, segmentation, ranking.  
-- Highlights ability to **answer actionable business questions** using data.  
-- Bridges the gap between technical work and business decision-making.
+---
+
+## How it works
+
+1. **Change Over Time** → Track revenue, sales, and trends over years, months, or quarters.  
+2. **Cumulative Analysis** → Running totals to understand growth trajectory for sales and quantity.  
+3. **Customers Report** → Identify top customers, loyalty patterns, and revenue contributions.  
+4. **Data Segmentation** → Compare performance across regions, categories, or customer types.  
+5. **Part-to-Whole Analysis** → See which products or segments contribute most to total sales.  
+6. **Performance & Products Report** → Rank top/bottom products, categories, and customers for insights and recommendations.  
+
+---
+
+## What Each Section Shows
+
+| Section                     | Purpose                                                      | Example Insights                                     |
+|-------------------------------|------------------------------------------------------------|----------------------------------------------------|
+| Change Over Time              | Analyze trends year-over-year or month-over-month          | Product X sales increased 20% YoY                 |
+| Cumulative Analysis           | Track running totals for sales, quantity, or revenue       | Total sales reached $29.3M over 4 years          |
+| Customers Report              | Identify top customers by revenue or frequency             | Top 10 customers generate $130K+ revenue         |
+| Data Segmentation             | Slice metrics by category, region, or demographics         | US customers = 7,482, Australia = 3,591          |
+| Part-to-Whole Analysis        | Understand contribution of segments to overall totals      | Bikes = 95% of revenue, Accessories = 2%         |
+| Performance & Products Report | Rank products, categories, and customers                   | Mountain-200 Black-46 = $1.37M, Bottom 3 customers = 1 order each |
+
+---
+
+## Why This Matters
+
+- Shows **advanced analytical skills** on top of a functional data warehouse.  
+- Demonstrates **business thinking**: you can see trends, identify opportunities, a
