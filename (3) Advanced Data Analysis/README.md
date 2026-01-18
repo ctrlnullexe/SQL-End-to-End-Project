@@ -43,10 +43,10 @@ Each folder contains SQL queries and notes for that type of analysis. Some queri
 
 ## What Each Section Shows
 
-| Section                     | Purpose                                                      | Example Insights                                     |
+| Section                     | Purpose                                                      | Insights                                     |
 |-------------------------------|------------------------------------------------------------|----------------------------------------------------|
 | Change Over Time              | Analyze trends year-over-year or month-over-month          | First month (Dec 2010): $43K sales, 14 customers. Peak month (Jun 2011): $738K sales, 230 customers. Shows seasonal growth and customer trends.                 |
-| Cumulative Analysis           | Track running totals for sales, quantity, or revenue       | Total sales reached $29.3M over 4 years          |
+| Cumulative Analysis           | Track running totals for sales, quantity, or revenue       |2010: $43K sales → 2013: $16.3M sales. Running total by 2013: $29.3M. Shows growth trends and shifts in sales over the years. Moving average highlights yearly performance trends. |
 | Customers Report              | Identify top customers by revenue or frequency             | Top 10 customers generate $130K+ revenue         |
 | Data Segmentation             | Slice metrics by category, region, or demographics         | US customers = 7,482, Australia = 3,591          |
 | Part-to-Whole Analysis        | Understand contribution of segments to overall totals      | Bikes = 95% of revenue, Accessories = 2%         |
