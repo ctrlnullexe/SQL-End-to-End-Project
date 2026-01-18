@@ -77,7 +77,7 @@ Every folder has SQL queries and results. Some queries are short. My point isnâ€
 
 ##Quick Highlights
 
-| Metric / Section | Example Insights                                                                     |
+| Metric / Section | Insights                                                                     |
 | ---------------- | ------------------------------------------------------------------------------------ |
 | Dates            | Sales from 2010â€“2014, oldest customer 110 yrs                                        |
 | Dimensions       | Customers from 7 countries, 5 product categories                                     |
