@@ -20,22 +20,39 @@ How the Folders Work
 
 SQL-End-to-End-Project/
 ├── Data Warehouse/
+
 │   ├── Bronze/       # Raw messy CSVs
+
 │   ├── Silver/       # Cleaned and standardized
+
 │   └── Gold/         # Star schema for analysis
+
 ├── Exploratory Data Analysis/
+
 │   ├── Date Exploration/
+
 │   ├── Dimensions Exploration/
+
 │   ├── Magnitude Analysis/
+
 │   ├── Measure Exploration/
+
 │   └── Ranking Analysis/
+
 └── Advanced Data Analysis/
+
     ├── Change Over Time/
+    
     ├── Cumulative Analysis/
+    
     ├── Customers Report/
+    
     ├── Data Segmentation/
+    
     ├── Part-to-Whole/
+    
     ├── Performance Analysis/
+    
     └── Products Report/
 
 Every folder has SQL queries and results. Some queries are short. My point isn’t to write a ton of code. It’s to show insights.
