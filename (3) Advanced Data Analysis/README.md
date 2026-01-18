@@ -43,14 +43,15 @@ Each folder contains SQL queries and notes for that type of analysis. Some queri
 
 ## What Each Section Shows
 
-| Section                     | Purpose                                                      | Insights                                     |
-|-------------------------------|------------------------------------------------------------|----------------------------------------------------|
-| Change Over Time              | Analyze trends year-over-year or month-over-month          | First month (Dec 2010): $43K sales, 14 customers. Peak month (Jun 2011): $738K sales, 230 customers. Shows seasonal growth and customer trends.                 |
-| Cumulative Analysis           | Track running totals for sales, quantity, or revenue       |2010: $43K sales → 2013: $16.3M sales. Running total by 2013: $29.3M. Shows growth trends and shifts in sales over the years. Moving average highlights yearly performance trends. |
-| Customers Report              | Identify top customers by revenue or frequency             | Top 10 customers generate $130K+ revenue         |
-| Data Segmentation             | Slice metrics by category, region, or demographics         | US customers = 7,482, Australia = 3,591          |
-| Part-to-Whole Analysis        | Understand contribution of segments to overall totals      | Bikes = 95% of revenue, Accessories = 2%         |
-| Performance & Products Report | Rank products, categories, and customers                   | Mountain-200 Black-46 = $1.37M, Bottom 3 customers = 1 order each |
+| Section                | Purpose                                                                              | Insights / Results                                                                                                                                |
+| ---------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Change Over Time       | Track how sales, customers, and quantity evolve over months/years                    | First 10 months: Dec 2010 → 14 customers, $43k sales; Jun 2011 → 230 customers, $737k sales                                                               |
+| Cumulative Analysis    | Running totals and moving averages to see trends over time                           | Total sales accumulate from $43k → $29.3M; moving averages highlight growth patterns                                                                      |
+| Customers Report       | Summarize customer-level activity: orders, revenue, lifespan, segments               | Sample: Jon Yang (VIP, 50+) → 3 orders, $8,249 total revenue; Chloe Young (New) → 3 orders, $2,501                                                        |
+| Data Segmentation      | Group products and customers into meaningful ranges or categories                    | Product cost ranges: Below 100 (110 products), 100–500 (101), 500–1000 (45), Above 1000 (39) <br> Customer segments: New 14,631, Regular 2,198, VIP 1,655 |
+| Part-to-Whole Analysis | Show contribution of each category/segment to total metrics                          | Revenue: Bikes 96.46%, Accessories 2.39%, Clothing 1.16%                                                                                                  |
+| Performance Analysis   | Compare products vs their historical average and prior year, see trends over time    | All-Purpose Bike Stand: 2012 ($159) Below Avg → 2013 ($37,683) Above Avg → 2014 ($1,749) Below Avg                                                        |
+| Products Report        | Summarize metrics for all products: sales, quantity, revenue, and performance trends | View tracks total sales, average price, quantity sold, avg vs prior year, YoY change                                                                      |
 
 ---
 
