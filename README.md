@@ -37,51 +37,56 @@ SQL-End-to-End-Project/
     ├── Part-to-Whole/
     ├── Performance Analysis/
     └── Products Report/
+
 Every folder has SQL queries and results. Some queries are short. My point isn’t to write a ton of code. It’s to show insights.
 
 ---
 
-What Each Phase Does
-Phase 1 – Data Warehouse
+##Highlights by Phase
 
-Bronze: Keep the raw data safe.
+#Phase 1 – Data Warehouse
 
-Silver: Clean it, fix dates, remove duplicates.
+    - Bronze: Keep raw data safe.
 
-Gold: Star schema for easy analytics.
+    - Silver: Clean, standardize, dedupe.
 
-Phase 2 – Exploratory Data Analysis
+    - Gold: Star schema ready for analysis.
 
-Look at time, categories, totals, averages, and rankings.
+#Phase 2 – Exploratory Data Analysis
 
-Understand who the customers are, what products sell most, and how revenue spreads.
+    - Analyze time, dimensions, totals, and rankings.
 
-Phase 3 – Advanced Analysis
+    - See who the customers are, what products sell most, and how revenue spreads.
 
-Track changes over time (monthly/yearly trends).
+#Phase 3 – Advanced Data Analysis
 
-Calculate cumulative totals and moving averages.
+    - Change over time: Monthly/yearly trends (e.g., Jun 2011: 230 customers, $737k sales)
 
-Build customer and product reports.
+    - Cumulative totals: Track totals and moving averages ($43k → $29.3M)
 
-Segment data (cost ranges, VIP vs. new customers).
+    - Customers report: Individual metrics (VIP vs. New, lifetime value, orders)
 
-Compare performance against averages and previous years.
+    - Data segmentation: Product costs, customer segments (VIP 1,655, New 14,631)
 
+    - Part-to-whole: Revenue contribution by category (Bikes 96%, Accessories 2%)
+
+    - Performance analysis: Compare products to average and previous year trends
+
+    - Products report: Aggregate KPIs and performance for all products
 ---
 
 ##Quick Highlights
 
-Section	Example Insights
-Dates	Sales from 2010–2014, oldest customer 110 yrs
-Dimensions	Customers from 7 countries, 5 product categories
-Magnitude	18,484 customers, $29M sales
-Measures	Avg price $486, total quantity sold 60,423
-Rankings	Top 5 products make $7M+, bottom 3 customers 1 order each
-Change Over Time	Jun 2011: 230 customers, $737k sales
-Cumulative	Total sales grow from $43k → $29.3M
-Customers Report	Jon Yang (VIP, 50+) → 3 orders, $8,249; Chloe Young (New) → 3 orders, $2,501
-Segmentation	Product cost: Below 100 → 110, Above 1000 → 39
-Customers: New 14,631, VIP 1,655
-Part-to-Whole	Bikes 96%, Accessories 2%, Clothing 1%
-Performance	All-Purpose Bike Stand: 2012 ($159) → 2013 ($37k) → 2014 ($1,749)
+| Metric / Section | Example Insights                                                                     |
+| ---------------- | ------------------------------------------------------------------------------------ |
+| Dates            | Sales from 2010–2014, oldest customer 110 yrs                                        |
+| Dimensions       | Customers from 7 countries, 5 product categories                                     |
+| Magnitude        | 18,484 customers, $29M total sales                                                   |
+| Measures         | Avg price $486, total quantity sold 60,423                                           |
+| Rankings         | Top 5 products make $7M+, bottom 3 customers 1 order each                            |
+| Change Over Time | Jun 2011: 230 customers, $737k sales                                                 |
+| Cumulative       | Total sales grow from $43k → $29.3M                                                  |
+| Customers Report | Jon Yang (VIP, 50+) → 3 orders, $8,249; Chloe Young (New) → 3 orders, $2,501         |
+| Segmentation     | Product cost: Below 100 → 110, Above 1000 → 39 <br> Customers: New 14,631, VIP 1,655 |
+| Part-to-Whole    | Bikes 96%, Accessories 2%, Clothing 1%                                               |
+| Performance      | All-Purpose Bike Stand: 2012 ($159) → 2013 ($37k) → 2014 ($1,749)                    |
